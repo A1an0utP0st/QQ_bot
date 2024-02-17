@@ -1,0 +1,26 @@
+[2024-02-13 00:50:41] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.1.2:49258->180.109.192.57:8080: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2024-02-13 00:50:41] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 14.22.9.53:8080: connectex: A socket operation was attempted to an unreachable host. 
+[2024-02-13 00:50:41] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 14.22.9.53:8080: connectex: A socket operation was attempted to an unreachable host. 
+[2024-02-13 00:50:41] [WARNING]: Bot已离线: connection dropped by server. 
+[2024-02-13 09:41:38] [WARNING]: 将在 3 秒后尝试重连. 重连次数：2/0 
+[2024-02-13 09:41:41] [WARNING]: 尝试重连... 
+[2024-02-13 09:41:45] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 49.7.253.214:443: connectex: An established connection was aborted by the software in your host machine. 
+[2024-02-13 09:41:45] [WARNING]: 快速重连失败: dial tcp error: dial tcp 49.7.253.214:443: connectex: An established connection was aborted by the software in your host machine. 
+[2024-02-13 09:41:45] [WARNING]: 快速重连失败, 尝试普通登录. 这可能是因为其他端强行T下线导致的. 
+[2024-02-13 09:41:47] [WARNING]: 登录需要滑条验证码, 请验证后重试. 
+[2024-02-13 09:41:47] [WARNING]: 请选择提交滑块ticket方式: 
+[2024-02-13 09:41:47] [WARNING]: 1. 自动提交 
+[2024-02-13 09:41:47] [WARNING]: 2. 手动抓取提交 
+[2024-02-13 09:41:47] [WARNING]: 请输入(1 - 2)： 
+[2024-02-13 10:01:48] [ERROR]: Protocol -> unexpected disconnect: EOF 
+[2024-02-13 10:18:33] [ERROR]: Protocol -> unexpected disconnect: EOF 
+[2024-02-13 10:35:18] [ERROR]: Protocol -> unexpected disconnect: EOF 
+[2024-02-13 10:52:03] [ERROR]: Protocol -> unexpected disconnect: EOF 
+[2024-02-13 11:08:48] [ERROR]: Protocol -> unexpected disconnect: EOF 
+[2024-02-13 11:25:33] [ERROR]: Protocol -> unexpected disconnect: EOF 
+[2024-02-13 11:42:18] [ERROR]: Protocol -> unexpected disconnect: EOF 
+[2024-02-13 11:59:03] [ERROR]: Protocol -> unexpected disconnect: EOF 
+[2024-02-13 12:15:48] [ERROR]: Protocol -> unexpected disconnect: EOF 
+[2024-02-13 12:30:40] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.1.2:50155->114.221.144.150:80: wsarecv: An established connection was aborted by the software in your host machine. 
+[2024-02-13 12:32:20] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 183.47.107.174:14000: connectex: An established connection was aborted by the software in your host machine. 
+[2024-02-13 12:32:20] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 183.47.107.174:14000: connectex: An established connection was aborted by the software in your host machine. 

@@ -1,0 +1,31 @@
+[2024-02-11 22:05:29] [WARNING]: 登录需要滑条验证码, 请验证后重试. 
+[2024-02-11 22:05:29] [WARNING]: 请选择提交滑块ticket方式: 
+[2024-02-11 22:05:29] [WARNING]: 1. 自动提交 
+[2024-02-11 22:05:29] [WARNING]: 2. 手动抓取提交 
+[2024-02-11 22:05:29] [WARNING]: 请输入(1 - 2)： 
+[2024-02-11 22:05:29] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10005 
+[2024-02-11 22:05:44] [WARNING]: Callback error: Packet timed out, Or response data is empty 
+[2024-02-11 22:05:44] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10005 
+[2024-02-11 22:05:59] [WARNING]: Callback error: Packet timed out, Or response data is empty 
+[2024-02-11 22:06:43] [WARNING]: 请前往该地址验证 -> https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=3678066951&sid=9072858036410307625&cap_cd=L5vFMgBjFwlE2atgU7QIFdGTVK0bqiL5nCbFbUGRE0skGNUVVfio-A**&clientype=1&apptype=2  
+[2024-02-11 22:06:43] [WARNING]: 请输入ticket： (Enter 提交) 
+[2024-02-11 22:10:00] [WARNING]: 账号已开启设备锁，请选择验证方式: 
+[2024-02-11 22:10:00] [WARNING]: 1. 向手机 151*******8 发送短信验证码 
+[2024-02-11 22:10:00] [WARNING]: 2. 使用手机QQ扫码验证. 
+[2024-02-11 22:10:00] [WARNING]: 请输入(1 - 2)： 
+[2024-02-11 22:11:26] [WARNING]: 账号已开启设备锁，请前往 -> https://accounts.qq.com/safe/verify?_wv=2&_wwv=128&envfrom=double-check&uin=3678066951&sig=F5hHPUsvCDUAd7z5PEoF5HlW%2FpDPv5Fru%2F%2BsJX4xQu04sirUC0pXNepC83xaXlrYabiG3GAkF3u%2FQNu2tshSSO47XuQnFZqo9gtJlrmBOFWZu0LWGJxpE%2BfePylua79pqvzMdWhhAF4YGmRsRln19liZVytaK82Betq9t0RJRHENnozTua3FR3mSLYVVxtGPp%2Bmk9KclbxQSST9zAxZY%2FUqLikrnViLVA3OKDrzem7COc3Ow9qizQSLCoPWp%2FI8c <- 验证后重启Bot. 
+[2024-02-11 22:13:04] [WARNING]: 登录需要滑条验证码, 请验证后重试. 
+[2024-02-11 22:13:04] [WARNING]: 请选择提交滑块ticket方式: 
+[2024-02-11 22:13:04] [WARNING]: 1. 自动提交 
+[2024-02-11 22:13:04] [WARNING]: 2. 手动抓取提交 
+[2024-02-11 22:13:04] [WARNING]: 请输入(1 - 2)： 
+[2024-02-11 22:13:04] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10005 
+[2024-02-11 22:13:15] [WARNING]: 请前往该地址验证 -> https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=3678066951&sid=525088650183628272&cap_cd=EjeP24s2QwNLeQ9nU-NBFahggFsCsX8FPN_yz-0_Xe1PE9__PVCFag**&clientype=1&apptype=2  
+[2024-02-11 22:13:15] [WARNING]: 请输入ticket： (Enter 提交) 
+[2024-02-11 22:13:19] [WARNING]: Callback error: Packet timed out, Or response data is empty 
+[2024-02-11 22:13:19] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10005 
+[2024-02-11 22:13:34] [WARNING]: Callback error: Packet timed out, Or response data is empty 
+[2024-02-11 22:13:57] [WARNING]: Protocol -> device lock is disabled. HTTP API may fail. 
+[2024-02-11 22:13:59] [WARNING]: 检查更新失败！ 
+[2024-02-11 22:52:56] [WARNING]: 刷新 token 出现错误: code=-1, msg: QSign not initialized, unable to request_token, please submit the initialization package first.. server: http://127.0.0.1:25599 
+[2024-02-11 22:58:53] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:61143->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 

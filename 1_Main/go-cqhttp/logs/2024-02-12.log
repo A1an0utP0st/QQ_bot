@@ -1,0 +1,21 @@
+[2024-02-12 11:21:46] [WARNING]: Protocol -> device lock is disabled. HTTP API may fail. 
+[2024-02-12 11:21:51] [WARNING]: 检查更新失败！ 
+[2024-02-12 11:24:15] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:56499->127.0.0.1:8080: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2024-02-12 11:31:44] [WARNING]: 签名服务器 http://127.0.0.1:25599 可能不可用，请求出现错误：Get "http://127.0.0.1:25599": dial tcp 127.0.0.1:25599: connectex: No connection could be made because the target machine actively refused it. 
+[2024-02-12 11:31:44] [WARNING]: no usable sign server 
+[2024-02-12 11:31:44] [WARNING]: 警告: 未配置签名服务器或签名服务器不可用, 这可能会导致登录 45 错误码或发送消息被风控 
+[2024-02-12 11:31:49] [WARNING]: Protocol -> device lock is disabled. HTTP API may fail. 
+[2024-02-12 11:31:54] [WARNING]: 检查更新失败！ 
+[2024-02-12 11:31:55] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8080/onebot/v11/ws 时出现错误: dial tcp 127.0.0.1:8080: connectex: No connection could be made because the target machine actively refused it. 
+[2024-02-12 11:33:21] [WARNING]: Protocol -> device lock is disabled. HTTP API may fail. 
+[2024-02-12 11:33:29] [WARNING]: 检查更新失败！ 
+[2024-02-12 12:24:34] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1012 
+[2024-02-12 12:24:39] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2024-02-12 12:38:19] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1012 
+[2024-02-12 12:38:19] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2024-02-12 12:42:32] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1012 
+[2024-02-12 12:42:34] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2024-02-12 12:51:22] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1012 
+[2024-02-12 12:51:24] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: websocket: close sent 
+[2024-02-12 20:13:40] [WARNING]: Callback error: Packet timed out, Or response data is empty 
+[2024-02-12 20:13:43] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.1.2:57880->180.101.246.123:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 

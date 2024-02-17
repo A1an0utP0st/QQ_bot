@@ -1,0 +1,66 @@
+[2024-02-17 10:02:24] [WARNING]: 签名服务器 http://127.0.0.1:25599 可能不可用，请求出现错误：Get "http://127.0.0.1:25599": dial tcp 127.0.0.1:25599: connectex: No connection could be made because the target machine actively refused it. 
+[2024-02-17 10:02:24] [WARNING]: no usable sign server 
+[2024-02-17 10:02:24] [WARNING]: 警告: 未配置签名服务器或签名服务器不可用, 这可能会导致登录 45 错误码或发送消息被风控 
+[2024-02-17 10:02:29] [WARNING]: 恢复会话失败: exchange_emp failed: 16 , 尝试使用正常流程登录. 
+[2024-02-17 10:02:31] [WARNING]: 登录需要滑条验证码, 请验证后重试. 
+[2024-02-17 10:02:31] [WARNING]: 请选择提交滑块ticket方式: 
+[2024-02-17 10:02:31] [WARNING]: 1. 自动提交 
+[2024-02-17 10:02:31] [WARNING]: 2. 手动抓取提交 
+[2024-02-17 10:02:31] [WARNING]: 请输入(1 - 2)： 
+[2024-02-17 10:03:36] [WARNING]: 登录需要滑条验证码, 请验证后重试. 
+[2024-02-17 10:03:36] [WARNING]: 请选择提交滑块ticket方式: 
+[2024-02-17 10:03:36] [WARNING]: 1. 自动提交 
+[2024-02-17 10:03:36] [WARNING]: 2. 手动抓取提交 
+[2024-02-17 10:03:36] [WARNING]: 请输入(1 - 2)： 
+[2024-02-17 10:03:36] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10005 
+[2024-02-17 10:03:51] [WARNING]: Callback error: Packet timed out, Or response data is empty 
+[2024-02-17 10:03:51] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10005 
+[2024-02-17 10:04:06] [WARNING]: Callback error: Packet timed out, Or response data is empty 
+[2024-02-17 10:05:31] [WARNING]: 请前往该地址验证 -> https://captcha.go-cqhttp.org/captcha?id=Qu3Osrpk&style=simple&aid=16&uin=3678066951&sid=8510156332099179512&cap_cd=b6JDLGsl25pW8-M8c126fbNrl0fvP3A4vWYzFPZF3_S9ay3aGWfeCw**&clientype=1&apptype=2  
+[2024-02-17 10:06:29] [WARNING]: 登录需要滑条验证码, 请验证后重试. 
+[2024-02-17 10:06:29] [WARNING]: 请选择提交滑块ticket方式: 
+[2024-02-17 10:06:29] [WARNING]: 1. 自动提交 
+[2024-02-17 10:06:29] [WARNING]: 2. 手动抓取提交 
+[2024-02-17 10:06:29] [WARNING]: 请输入(1 - 2)： 
+[2024-02-17 10:06:29] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10005 
+[2024-02-17 10:06:41] [WARNING]: 请前往该地址验证 -> https://captcha.go-cqhttp.org/captcha?id=wbC7yvZL&style=simple&aid=16&uin=3678066951&sid=311239037355562149&cap_cd=uS_64mWRj5bSOsn5LK-7pl4X1rdlc_SvQTHJiL6pkPlZiW3guxzBog**&clientype=1&apptype=2  
+[2024-02-17 10:06:44] [WARNING]: Callback error: Packet timed out, Or response data is empty 
+[2024-02-17 10:06:44] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10005 
+[2024-02-17 10:07:30] [WARNING]: 检查协议更新失败: Get "https://ghproxy.com/https://raw.githubusercontent.com/RomiChan/protocol-versions/master/android_pad.json": read tcp 192.168.1.2:54072->132.145.248.22:443: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2024-02-17 10:07:31] [WARNING]: 登录需要滑条验证码, 请验证后重试. 
+[2024-02-17 10:07:31] [WARNING]: 请选择提交滑块ticket方式: 
+[2024-02-17 10:07:31] [WARNING]: 1. 自动提交 
+[2024-02-17 10:07:31] [WARNING]: 2. 手动抓取提交 
+[2024-02-17 10:07:31] [WARNING]: 请输入(1 - 2)： 
+[2024-02-17 10:07:31] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10005 
+[2024-02-17 10:07:33] [WARNING]: 请前往该地址验证 -> https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=3678066951&sid=8024515437818549475&cap_cd=HGWgCoNKvUnf5tnf6wNBTeHYa0o-pmkHgoIk7IZ51mrVprQkCAc3Tg**&clientype=1&apptype=2  
+[2024-02-17 10:07:33] [WARNING]: 请输入ticket： (Enter 提交) 
+[2024-02-17 10:07:46] [WARNING]: Callback error: Packet timed out, Or response data is empty 
+[2024-02-17 10:07:46] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10005 
+[2024-02-17 10:08:01] [WARNING]: Callback error: Packet timed out, Or response data is empty 
+[2024-02-17 10:08:20] [WARNING]: 登录失败: 你当前使用的QQ版本过低，请前往QQ官网im.qq.com下载最新版QQ后重试。 Code: 45 
+[2024-02-17 10:08:20] [WARNING]: 你的账号被限制登录, 请配置 SignServer 后重试 
+[2024-02-17 10:28:20] [ERROR]: Protocol -> unexpected disconnect: EOF 
+[2024-02-17 10:28:21] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10005 
+[2024-02-17 10:28:35] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10005 
+[2024-02-17 10:28:50] [ERROR]: Protocol -> register client failed: Packet timed out 
+[2024-02-17 10:47:10] [WARNING]: 刷新 token 出现错误: code=-1, msg: QSign not initialized, unable to request_token, please submit the initialization package first.. server: http://127.0.0.1:25599 
+[2024-02-17 11:27:10] [WARNING]: 刷新 token 出现错误: code=-1, msg: QSign not initialized, unable to request_token, please submit the initialization package first.. server: http://127.0.0.1:25599 
+[2024-02-17 12:07:10] [WARNING]: 刷新 token 出现错误: code=-1, msg: QSign not initialized, unable to request_token, please submit the initialization package first.. server: http://127.0.0.1:25599 
+[2024-02-17 12:47:10] [WARNING]: 刷新 token 出现错误: code=-1, msg: QSign not initialized, unable to request_token, please submit the initialization package first.. server: http://127.0.0.1:25599 
+[2024-02-17 13:27:10] [WARNING]: 刷新 token 出现错误: code=-1, msg: QSign not initialized, unable to request_token, please submit the initialization package first.. server: http://127.0.0.1:25599 
+[2024-02-17 14:07:10] [WARNING]: 刷新 token 出现错误: code=-1, msg: QSign not initialized, unable to request_token, please submit the initialization package first.. server: http://127.0.0.1:25599 
+[2024-02-17 14:47:10] [WARNING]: 刷新 token 出现错误: code=-1, msg: QSign not initialized, unable to request_token, please submit the initialization package first.. server: http://127.0.0.1:25599 
+[2024-02-17 15:14:53] [WARNING]: 登录需要滑条验证码, 请验证后重试. 
+[2024-02-17 15:14:53] [WARNING]: 请选择提交滑块ticket方式: 
+[2024-02-17 15:14:53] [WARNING]: 1. 自动提交 
+[2024-02-17 15:14:53] [WARNING]: 2. 手动抓取提交 
+[2024-02-17 15:14:53] [WARNING]: 请输入(1 - 2)： 
+[2024-02-17 15:14:53] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10005 
+[2024-02-17 15:14:56] [WARNING]: 请前往该地址验证 -> https://ssl.captcha.qq.com/template/wireless_mqq_captcha.html?style=simple&aid=16&uin=3678066951&sid=6526498799946325229&cap_cd=TzYHd-z_ziFJFKe-wAQh3C_InPPGrvkb_lBLbsL-L1oy1tEQ8vwKzg**&clientype=1&apptype=2  
+[2024-02-17 15:14:56] [WARNING]: 请输入ticket： (Enter 提交) 
+[2024-02-17 15:15:08] [WARNING]: Callback error: Packet timed out, Or response data is empty 
+[2024-02-17 15:15:09] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10005 
+[2024-02-17 15:15:24] [WARNING]: Callback error: Packet timed out, Or response data is empty 
+[2024-02-17 15:15:30] [WARNING]: 登录失败: 你当前使用的QQ版本过低，请前往QQ官网im.qq.com下载最新版QQ后重试。 Code: 45 
+[2024-02-17 15:15:30] [WARNING]: 你的账号被限制登录, 请配置 SignServer 后重试 
