@@ -8,10 +8,24 @@ on:
     
 jobs:
   run_scripts:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Execute script with dependencies
+        run: |
+          # Set script permissions on Windows
+          ICACLS https://github.com/A1an0utP0st/QQ_bot/blob/main/1_Main/2/%E5%AE%89%E8%A3%85.bat /grant Everyone:F
+          ICACLS https://github.com/A1an0utP0st/QQ_bot/blob/main/1_Main/unidbg-fetch-qsign/start.bat /grant Everyone:F
+          ICACLS https://github.com/A1an0utP0st/QQ_bot/blob/main/1_Main/lhcbot/bot.py /grant Everyone:F
+          ICACLS https://github.com/A1an0utP0st/QQ_bot/blob/main/1_Main/go-cqhttp/start.bat /grant Everyone:F
+
+          # Set environment variables on Windows
+          echo "::set-env name=MY_VARIABLE::value"
         
       - name: Run setup.bat script
         run: 1_Main/2/安装.bat #第一步运行python库配置文件
