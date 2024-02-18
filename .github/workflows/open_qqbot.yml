@@ -3,28 +3,21 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: '0 */5 * * *'  # 每隔五个小时触发一次
+    
 jobs:
   run_scripts:
     runs-on: ubuntu-latest
-  run_python_script:
-    runs-on: ubuntu-latest
-  run_batch_script:
-    runs-on: windows-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
         
-      - name: Run .bat script
+      - name: Run setup.bat script
         run: 1_Main/2/安装.bat #第一步运行python库配置文件
-
-      - name: Checkout code
-        uses: actions/checkout@v2
         
-      - name: Run .bat script
+      - name: Run qsignstart.bat script
         run: 1_Main/unidbg-fetch-qsign/start.bat #第二步进行服务器签名
-  
-      - name: Checkout code
-        uses: actions/checkout@v2
         
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -33,9 +26,6 @@ jobs:
           
       - name: Run Python script
         run: python 1_Main/lhcbot/bot.py #第三步打开qq机器人主程序
-
-      - name: Checkout code
-        uses: actions/checkout@v2
         
-      - name: Run .bat script
+      - name: Run gcstart.bat script
         run: 1_Main/go-cqhttp/start.bat #第四步打开抓取，运行qq机器人
