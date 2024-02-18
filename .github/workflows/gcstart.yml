@@ -1,0 +1,14 @@
+name: gcstart
+on:
+  push:
+    branches:
+      - main
+jobs:
+  run_batch_script:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
+      - name: Run .bat script
+        run: 1_Main/go-cqhttp/start.bat
